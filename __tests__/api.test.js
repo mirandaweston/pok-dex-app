@@ -1,4 +1,4 @@
-const fetchPokemon = require('../../javascript-programs/pokeAPI/src/api')
+const fetchPokemon = require('../src/api')
 
 describe('fetchPokemon', () => {
   it('returns a promise of the useful pokemon data', (done) => {
