@@ -17,3 +17,5 @@ npm install
 - Jest
 
 ## 3. Test coverage: 100%
+
+<img width="522" alt="Screenshot 2023-02-24 at 11 45 43" src="https://user-images.githubusercontent.com/117643324/221171741-9c0fe24b-d8ea-40a4-a35b-ed8d0722e83d.png">
