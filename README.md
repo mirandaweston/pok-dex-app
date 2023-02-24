@@ -1,6 +1,6 @@
-# Pokedex App
+# Pokédex App
 
-### Using a publicly available Pokemon API to create a Pokedex app, storing a list of Pokemon we have caught.
+### Using a publicly available Pokémon API to create a Pokédex app, storing a list of Pokémon we have caught.
 
 ## 1. Installation
 _Clone this repo and run the following command in your terminal to install all the required dependencies in the 'package.json' file._
