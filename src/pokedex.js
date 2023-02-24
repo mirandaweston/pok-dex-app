@@ -26,7 +26,7 @@ const fetchPokemon = async (pokemonname) => {
     weight: data.weight,
     types: data.types.map(type => type.type.name).join(', '),
   };
-  // introduce a delay of 1 second
+  // introduce a delay of 4 seconds
   await new Promise((resolve) => setTimeout(resolve, 4000));
   return pokemon;
 };
