@@ -14,5 +14,15 @@ describe('pokedex', () => {
     expect(pokedex.pokedex.length).toBe(1);
     expect(pokedex.pokedex[0].name).toBe('pikachu');
   });
+
+  it('returns the pokedex', async () => {
+    const pokedex = new Pokedex();
+    await pokedex.addPokemon('pikachu');
+    await pokedex.addPokemon('snorlax');
+    expect(pokedex.all()).toEqual(expect.arrayContaining([
+      expect.objectContaining({ name: 'pikachu' }),
+      expect.objectContaining({ name: 'snorlax' }),
+    ]));
+  });
 });
 
